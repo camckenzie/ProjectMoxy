@@ -9,6 +9,7 @@ function LoginForm() {
         name: "Steven",
         email: "steven@gmail.com",
         password: "password"
+
     }
 
     //array back from set state function, where we get user

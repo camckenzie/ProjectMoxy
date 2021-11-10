@@ -1,9 +1,11 @@
 .buttons {
-    margin-top: 100px;
-    margin-left: 300px;
-    
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
     color: red;
-   
+    
+    display: flex;
+    flex-wrap: wrap;   
 
 }
 
@@ -17,6 +19,7 @@
     margin: 15px;
     margin-bottom: 30px;
     background-color: rgb(255, 255, 255);
+
 }
 
 .buttonTitle {
