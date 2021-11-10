@@ -7,12 +7,15 @@ import engagementmod from './images/engagementmod.png';
 import dashboard from './images/dashboard.png';
 import resources from './images/resources.png';
 import database from './images/database.png';
+import { useHistory } from "react-router-dom";
 
-class Menu extends Component {
-  render() {
+
+function Menu(){
+  let history = useHistory();
+
     return (
       <div className="buttons">
-            <Button variant="light" className="buttonsW">
+            <Button variant="light" className="buttonsW" onClick={() => {history.push('/menu/engagement')}}>
                 <span className="buttonTitle">Engagement Management</span>
                 <img className="buttonem" src={engagementmod} />            
                 <span className="buttonDescription">Defining and modeling outcomes for a client engagement along with KPIs and timelines</span>
@@ -35,6 +38,6 @@ class Menu extends Component {
       </div>
     );
   }
-}
+
 
 export default Menu;
