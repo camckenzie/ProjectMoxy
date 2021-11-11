@@ -35,17 +35,18 @@ function LoginForm() {
 
     } else {
       console.log("Details do not match!");
+      //Below is what is actually displayed on screen
       setError("Details do not match!");
       
     }
   }
 
-  const Logout = () => {
-    setUser({
-      name: "",
-      email: ""
-    });
-  }
+  // const Logout = () => {
+  //   setUser({
+  //     name: "",
+  //     email: ""
+  //   });
+  // }
     //Local details for form
     const [details, setDetails] = useState({name: "", email: "", password: ""});
 
