@@ -6,6 +6,9 @@ import Dashboard from './components/pages/Dashboard/Dashboard';
 import EngagementManagement from './components/pages/EngagementManagement/EngagementMangement';
 import Resources from './components/pages/Resources/Resources';
 import SolutionsDatabase from './components/pages/SolutionsDatabase/SolutionsDatabase';
+import CreateEM from './components/pages/CreateEM/CreateEM';
+import ModifyEM from './components/pages/ModifyEM/ModifyEM';
+import LaunchEM from './components/pages/LaunchEM/LaunchEM';
 function App() {
   
   return (
@@ -17,6 +20,9 @@ function App() {
         <Route exact path="/dashboard" component={Dashboard} />
         <Route exact path="/resources" component={Resources} />
         <Route exact path="/solutionsdatabase" component={SolutionsDatabase} />
+        <Route exact path="/createem" component={CreateEM} />
+        <Route exact path="/modifyem" component={ModifyEM} />
+        <Route exact path="/launchem" component={LaunchEM} />
       </Switch>
     </Router>
 

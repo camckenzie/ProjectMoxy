@@ -13,26 +13,26 @@ function Menu(){
 
     return (
       <div className="buttons">
-            <Button variant="light" className="buttonsW" onClick={() => {history.push("/engagementmanagement")}}>
+            <button className="buttonsW" onClick={() => {history.push("/engagementmanagement")}}>
                 <span className="buttonTitle">Engagement Management</span>
                 <img className="buttonem" src={engagementmod} />            
                 <span className="buttonDescription">Defining and modeling outcomes for a client engagement along with KPIs and timelines</span>
-            </Button>
-            <Button variant="light" className="buttonsW"  onClick={() => {history.push("/dashboard")}}>
+            </button>
+            <button variant="light" className="buttonsW"  onClick={() => {history.push("/dashboard")}}>
                 <span className="buttonTitle">Dashboard</span>
                 <img className="buttondb" src={dashboard} />  
                 <span className="buttonDescription">Comprehensive view of a running engagement tracking progress and costs</span>
-            </Button>
-            <Button variant="light" className="buttonsW"  onClick={() => {history.push("/resources")}}>
+            </button>
+            <button variant="light" className="buttonsW"  onClick={() => {history.push("/resources")}}>
                 <span className="buttonTitle">Resources</span>
                 <img className="buttondb" src={resources} /> 
                 <span className="buttonDescription">Library of pre-built documents ranging from charts to example reports</span>
-            </Button>
-            <Button variant="light" className="buttonsW"  onClick={() => {history.push("/solutionsdatabase")}}>
+            </button>
+            <button variant="light" className="buttonsW"  onClick={() => {history.push("/solutionsdatabase")}}>
                 <span className="buttonTitle">Solutions Database</span>
                 <img className="buttondb" src={database} /> 
                 <span className="buttonDescription">Successfully delivered outcomes and the components of those outcomes</span>
-            </Button>
+            </button>
       </div>
     )
 }
