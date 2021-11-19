@@ -9,7 +9,7 @@ import resources from './images/resources.png';
 import database from './images/database.png';
 
 function Menu(){
-  let history = useHistory();
+    let history = useHistory();
 
     return (
       <div className="buttons">
@@ -32,7 +32,7 @@ function Menu(){
                 <span className="buttonTitle">Solutions Database</span>
                 <img className="buttondb" src={database} /> 
                 <span className="buttonDescription">Successfully delivered outcomes and the components of those outcomes</span>
-            </button>
+            </button>            
       </div>
     )
 }
